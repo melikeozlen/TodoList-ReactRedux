@@ -1,0 +1,97 @@
+@import "../reset.scss";
+
+li {
+    padding: 0.4em;
+    margin-top: 0;
+    width: 100%;
+    list-style: none;
+    font-weight: 200;
+    font-size: 0.5rem;
+    border-bottom: 1px solid #ddd;
+
+
+    .non__editible {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 1rem;
+        font-size: 1.2rem;
+
+        &:hover {
+            background-color: $hover;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 1em;
+
+            button {
+                padding: 0.8rem;
+                color: $primary;
+                cursor: pointer;
+                font-size: 1rem;
+                background-color: transparent;
+                border: 0;
+
+                &:hover {
+                    transform: scale(1.3);
+                    transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+                }
+            }
+        }
+    }
+
+    .editible {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 1rem;
+
+        input {
+            font-size: 1.2rem;
+            border: 0;
+            outline: none;
+            padding: 0.8rem;
+            background-color: transparent;
+            width: 100%;
+            color: $light;
+        }
+
+        button {
+            padding: 0.3rem;
+            margin-right: 0.5rem;
+            background-color: transparent;
+            color: $primary;
+            border: 0;
+            font-size: 1.5rem;
+            cursor: pointer;
+            background-color: transparent;
+            border: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    li {
+        .non__editible {
+            font-size: 1rem;
+
+            .buttons {
+                button {
+                    padding: 0.5rem;
+                }
+            }
+
+
+        }
+        .editible{
+            input {
+                font-size: 1rem;
+            }
+        }
+
+    }
+
+}
