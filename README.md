@@ -1,7 +1,7 @@
 # TodoList-ReactRedux  
 
-A todo list application made to learn Redux. Redux Toolkit is used. Adding, deleting, updating and showing the data in the state are done. It is a responsive design.
-
+A todo list application made to learn Redux. Redux Toolkit is used. Adding, deleting, updating and showing the data in the state are done. It is a responsive design.  
+Don't forget to give a star :star2:  
 
 -React.JS  
 -SCSS  
