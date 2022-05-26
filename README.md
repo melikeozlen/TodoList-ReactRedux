@@ -1,5 +1,5 @@
 # TodoList-ReactRedux
-Redux mantığını anlamak için yapılmış bir todo list uygulaması. Redux Toolkit kullanılmıştır. State'e ekleme silme editleme ve state'de ki veriyi gösterme işlemleri yapılmıştır.Responsive bir tasarımdır.
+Redux mantığını anlamak için yapılmış bir todo list uygulaması. Redux Toolkit kullanılmıştır. State'e ekleme, silme, güncelleme ve state'de ki veriyi gösterme işlemleri yapılmıştır.Responsive bir tasarımdır.
 
 -React.JS  
 -SCSS  
